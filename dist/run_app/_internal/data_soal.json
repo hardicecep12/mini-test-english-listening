@@ -1,0 +1,188 @@
+[
+  {
+    "chapter_id": 1,
+    "chapter_title": "Chapter 1: Daily Social Interactions",
+    "subchapters": [
+      {
+        "sub_id": "1.1",
+        "sub_title": "Sub 1.1: Booking a Train Ticket",
+        "audio_path": "audio/ch1_sub1.mp3",
+        "script": "Passenger: Good morning. I would like to buy a return ticket to London Euston, please. Ticket Clerk: Good morning. Are you traveling today? Passenger: Yes, on the next available train. Ticket Clerk: The next train leaves at 8:15 AM from Platform 3. A standard off-peak return ticket is 42 pounds and 50 pence. Passenger: That sounds good. Here is my card.",
+        "questions": [
+          {
+            "id": "1.1_q1",
+            "question": "Where is the passenger heading to?",
+            "options": [
+              "A. Manchester",
+              "B. London",
+              "C. Birmingham",
+              "D. Liverpool"
+            ],
+            "answer": "B. London",
+            "explanation": "Clue-nya ada pas penumpang bilang: 'A return ticket to London Euston, please'."
+          },
+          {
+            "id": "1.1_q2",
+            "question": "What type of ticket does the passenger purchase?",
+            "options": [
+              "A. Single journey",
+              "B. First class single",
+              "C. Standard return",
+              "D. Weekend pass"
+            ],
+            "answer": "C. Standard return",
+            "explanation": "Petugas loket nawarin 'standard off-peak return' dan penumpangnya langsung setuju."
+          },
+          {
+            "id": "1.1_q3",
+            "question": "What time is the departure train?",
+            "options": [
+              "A. 08:15 AM",
+              "B. 09:30 AM",
+              "C. 10:00 AM",
+              "D. 11:45 AM"
+            ],
+            "answer": "A. 08:15 AM",
+            "explanation": "Petugas loket bilang keretanya berangkat jam 8:15 pagi dari Peron 3."
+          },
+          {
+            "id": "1.1_q4",
+            "question": "How much does the passenger pay in total?",
+            "options": [
+              "A. \u00a325.00",
+              "B. \u00a342.50",
+              "C. \u00a350.00",
+              "D. \u00a365.00"
+            ],
+            "answer": "B. \u00a342.50",
+            "explanation": "Total biayanya 42 pounds and 50 pence (\u00a342.50)."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "chapter_id": 2,
+    "chapter_title": "Chapter 2: Professional & Work Life",
+    "subchapters": [
+      {
+        "sub_id": "2.1",
+        "sub_title": "Sub 2.1: Project Status Meeting",
+        "audio_path": "audio/ch2_sub1.mp3",
+        "script": "Manager: Thanks everyone for joining. Let's start with the IT department update. David: We ran into unexpected downtime during the server migration yesterday, which delayed our deployment timeline. Manager: Understood. How does this affect our deadline? David: We will need to postpone the product launch by two weeks. Sarah: I can draft an update email and send it to the client this afternoon. Manager: Thanks, Sarah. Let's sync again on Monday at 10 AM.",
+        "questions": [
+          {
+            "id": "2.1_q1",
+            "question": "What caused the delay in the project?",
+            "options": [
+              "A. Budget cuts",
+              "B. Server migration downtime",
+              "C. Staff shortages",
+              "D. Client cancellation"
+            ],
+            "answer": "B. Server migration downtime",
+            "explanation": "David bilang kendalanya ada di proses server migration kemarin."
+          },
+          {
+            "id": "2.1_q2",
+            "question": "When is the new launch deadline?",
+            "options": [
+              "A. Tomorrow",
+              "B. Next Friday",
+              "C. In two weeks",
+              "D. Next month"
+            ],
+            "answer": "C. In two weeks",
+            "explanation": "Peluncuran produk diundur selama 2 minggu (postpone by two weeks)."
+          },
+          {
+            "id": "2.1_q3",
+            "question": "Who will update the client?",
+            "options": [
+              "A. Sarah",
+              "B. David",
+              "C. The Manager",
+              "D. IT Team"
+            ],
+            "answer": "A. Sarah",
+            "explanation": "Sarah ngajuin diri buat bikin draf dan kirim email ke klien."
+          },
+          {
+            "id": "2.1_q4",
+            "question": "When will the team meet next?",
+            "options": [
+              "A. This evening",
+              "B. Friday afternoon",
+              "C. Monday at 10 AM",
+              "D. Next month"
+            ],
+            "answer": "C. Monday at 10 AM",
+            "explanation": "Rapat ditutup dengan jadwal sinkronisasi berikutnya di hari Senin jam 10 pagi."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "chapter_id": 3,
+    "chapter_title": "Chapter 3: Academic Lectures",
+    "subchapters": [
+      {
+        "sub_id": "3.1",
+        "sub_title": "Sub 3.1: Environmental Science",
+        "audio_path": "audio/ch3_sub1.mp3",
+        "script": "Professor: Today we will explore ocean acidification. As the ocean absorbs excess carbon dioxide from the atmosphere, the water chemistry changes and pH levels drop. This change severely hinders the ability of marine organisms, particularly shellfish and corals, to build and maintain their shells. For next Thursday, please make sure you read the journal paper on coral reefs before our seminar.",
+        "questions": [
+          {
+            "id": "3.1_q1",
+            "question": "What is the primary topic of the lecture?",
+            "options": [
+              "A. Solar Energy",
+              "B. Ocean Acidification",
+              "C. Forest Fires",
+              "D. Soil Erosion"
+            ],
+            "answer": "B. Ocean Acidification",
+            "explanation": "Dosen ngebuka sesi dengan topik utama pengasaman air laut (ocean acidification)."
+          },
+          {
+            "id": "3.1_q2",
+            "question": "Which organisms are most directly affected?",
+            "options": [
+              "A. Whales",
+              "B. Deep sea fish",
+              "C. Shellfish and corals",
+              "D. Seabirds"
+            ],
+            "answer": "C. Shellfish and corals",
+            "explanation": "Biota bercangkang (shellfish) dan terumbu karang (corals) yang paling kena dampak."
+          },
+          {
+            "id": "3.1_q3",
+            "question": "What gas causes the chemical shift in ocean water?",
+            "options": [
+              "A. Carbon Dioxide",
+              "B. Nitrogen",
+              "C. Oxygen",
+              "D. Methane"
+            ],
+            "answer": "A. Carbon Dioxide",
+            "explanation": "Perubahan terjadi karena laut menyerap kelebihan Karbon Dioksida (CO2) dari atmosfer."
+          },
+          {
+            "id": "3.1_q4",
+            "question": "What is the assignment for next Thursday?",
+            "options": [
+              "A. Write an essay",
+              "B. Read a journal paper on coral reefs",
+              "C. Prepare a lab experiment",
+              "D. Take an online quiz"
+            ],
+            "answer": "B. Read a journal paper on coral reefs",
+            "explanation": "Mahasiswa ditugaskan membaca jurnal tentang terumbu karang sebelum hari Kamis."
+          }
+        ]
+      }
+    ]
+  }
+]
