@@ -1,33 +1,25 @@
-# Mini English Listening — Streamlit
+# OmniData Prep Studio - Simulasi Cleaning Data
 
-Platform latihan *listening* bahasa Inggris interaktif berbasis web lokal dengan sistem audio multi-suara dan penilaian otomatis.
-
----
+Aplikasi berbasis Streamlit untuk simulasi dan latihan pembersihan data (data cleaning). Proyek ini dirancang untuk menguji alur kerja data preparation menggunakan data sintetis dari aktivitas penjualan toko elektronik, baik transaksi onsite (toko fisik) maupun online.
 
 ## Fitur Utama
-
-* **Operasional Mandiri (Offline)**: Pengerjaan soal dan pemutaran audio berjalan di komputer lokal tanpa memerlukan koneksi internet saat tes berlangsung.
-* **Audio Multi-Penutur**: Karakter suara berganti secara otomatis (pria dan wanita) sesuai peran dialog pada naskah.
-* **Bank Data Terpisah**: Naskah percakapan, butir pertanyaan, kunci jawaban, dan pembahasan tersimpan rapi dalam file JSON.
-* **Koreksi & Pembahasan**: Penilaian jawaban instan per sub-bab yang dilengkapi pembahasan serta rekap skor akhir.
-
----
-
-## Komponen Utama
-
-* **Streamlit**: Antarmuka web interaktif untuk memutar audio, memilih jawaban, dan menampilkan rekap nilai.
-* **Edge-TTS**: Generator sintesis suara (*Text-to-Speech*) untuk membuat audio percakapan MP3 dari naskah dialog.
-* **JSON (`data_soal.json`)**: Tempat penyimpanan terpusat untuk bank soal dan materi pembahasan.
-
----
+- Generate Data Sintetis: Membuat data transaksi penjualan toko elektronik secara otomatis untuk transaksi onsite dan online.
+- Simulasi Cleaning Data: Latihan menangani missing values, duplikasi data, penyesuaian format, dan pencilan (outliers).
 
 ## Cara Menjalankan
 
-* Pasang dependensi `streamlit` dan `edge-tts` melalui Anaconda Prompt atau terminal.
-* Jalankan `generate_audio.py` sekali untuk membuat seluruh file audio percakapan.
-* Jalankan `streamlit run app.py` untuk membuka antarmuka latihan di browser.
+### Cara 1: Menjalankan Aplikasi Executable (.exe)
+1. Buka folder `dist`.
+2. Buka folder `run_app`.
+3. Jalankan berkas `run_app.exe`.
 
-```bash
-pip install streamlit edge-tts
-python generate_audio.py
-streamlit run app.py
+### Cara 2: Menjalankan via Terminal (Streamlit)
+1. Pastikan Python sudah terinstal di PC kamu.
+2. Instal pustaka yang dibutuhkan melalui terminal:
+    ```bash
+    pip install streamlit pandas numpy
+    ```
+3. Jalankan aplikasi dengan perintah:
+    ```bash
+    streamlit run app.py
+    ```
